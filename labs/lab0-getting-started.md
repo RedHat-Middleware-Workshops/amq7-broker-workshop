@@ -1,7 +1,7 @@
 Lab 0. Getting Started
 ===
-Install Preparation
----
+#### Install Preparation
+
 For running JBoss AMQ 7 Broker
 
 * **Java Runtime Engine (JRE) 1.8**
@@ -14,4 +14,8 @@ For running the example code
 
 If installing from supported version of Red Hat Enterprise Linux you can use yum command to install pre-requisites.
 
-    $ sudo yum install java-1.8.0-openjdk-devel maven git
+```
+$ sudo yum install java-1.8.0-openjdk-devel maven git
+```
+
+End of Lab 0.

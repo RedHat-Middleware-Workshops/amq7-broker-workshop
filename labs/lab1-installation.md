@@ -9,6 +9,31 @@ Lab 1. Installation
 
 #### Install the software by unzipping the file into the designated workshop path (/home/user/workshop-amq)
 
-    $ unzip jboss-amq-7.x.x.zip
+```
+$ unzip jboss-amq-7.x.x.zip
+```
 
 *The directory created by extracting the archive will be referenced now on as **AMQ_HOME***
+
+#### Directory Structure
+
+```
+$ tree
+|-- bin
+|-- etc
+|-- examples
+|-- lib
+|-- schema
+`-- web
+```
+
+| Folder | Description |
+| ------ | ----------- |
+| bin    | AMQ scripts and native journal lib |
+| etc    | Red Hat branding and extra configuration |
+| examples | Full set of runnable JMS and Java EE examples |
+| lib    | The AMQ 7 runtime jars and libraries |
+| schema | XML Schema to validate the JBoss AMQ configuration files |
+| web    | Web loaded with hawt.io console, jolokia |
+
+End of Lab 1.
