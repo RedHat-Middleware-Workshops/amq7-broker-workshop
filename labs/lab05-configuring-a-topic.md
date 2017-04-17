@@ -1,4 +1,4 @@
-Lab 4. Configuring a Topic
+Lab 5. Configuring a Topic
 ===
 #### Creating a Topic using the CLI
 1. Open the `etc/broker.xml` file with your favorite text editor.
