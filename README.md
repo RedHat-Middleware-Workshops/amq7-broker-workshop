@@ -4,22 +4,22 @@ Red Hat JBoss AMQ 7 Broker Workshop
 ### Introduction
 Red Hat JBoss AMQ 7 provides fast, lightweight, and secure messaging for Internet-scale applications. AMQ 7 components use industry-standard message protocols and support a wide range of programming languages and operating environments. AMQ 7 gives you the strong foundation you need to build modern distributed applications.
 
-This workshop introduces participants to JBoss AMQ 7 through a presentation and hands-on lab format. This workshop is intended to be completed in a half-day (4hrs) session. 
+This workshop introduces participants to JBoss AMQ 7 through a presentation and hands-on lab format. This workshop is intended to be completed in a half-day (4hrs) session.
 
 ### Agenda
 The proposed agenda should look like the following.
 1. Red Hat JBoss AMQ 7 Overview
- * Technical Overview of the AMQ 7 Broker
+  * Technical Overview of the AMQ 7 Broker
 2. Getting Started
- * Installing and running the AMQ 7 Broker
+  * Installing and running the AMQ 7 Broker
 3. Broker Configuration
- * Acceptors, Connectors and Addressing
+  * Acceptors, Connectors and Addressing
 4. Networking Brokers
- * Clustered Brokers
+  * Clustered Brokers
 5. High Availability
- * Shared Store and Replicated Journals (Shared Nothing)
+  * Shared Store and Replicated Journals (Shared Nothing)
 6. Security
- * Management Security
+  * Management Security
 7. Hands-on labs
 
 ### Labs
