@@ -8,19 +8,19 @@ This workshop introduces participants to JBoss AMQ 7 through a presentation and 
 
 ### Agenda
 The proposed agenda should look like the following.
-1. Red Hat JBoss AMQ 7 Overview
+* Red Hat JBoss AMQ 7 Overview
   * Technical Overview of the AMQ 7 Broker
-2. Getting Started
+* Getting Started
   * Installing and running the AMQ 7 Broker
-3. Broker Configuration
+* Broker Configuration
   * Acceptors, Connectors and Addressing
-4. Networking Brokers
+* Networking Brokers
   * Clustered Brokers
-5. High Availability
+* High Availability
   * Shared Store and Replicated Journals (Shared Nothing)
-6. Security
+* Security
   * Management Security
-7. Hands-on labs
+* Hands-on labs
 
 ### Labs
 The main idea of the workshop is to present to the student a set of hands-on labs to test the features of the AMQ 7 Broker. The following labs should cover the main aspects of the product.
