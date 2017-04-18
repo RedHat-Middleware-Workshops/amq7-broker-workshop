@@ -6,7 +6,7 @@ Lab 6. Securing a Queue
 $ ./artemis user add --user myuser --password mypassword --role mygroup
 ```
 1. Update the security settings to only allow **send** to the new user’s role `mygroup`.
-```
+```XML
   <security-settings>
          <security-setting match="#">
         ...

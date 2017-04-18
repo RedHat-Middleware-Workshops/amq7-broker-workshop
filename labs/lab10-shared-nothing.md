@@ -10,7 +10,7 @@ $ <AMQ_HOME>/bin/artemis create --replicated --failover-on-shutdown  --user admi
 $ <AMQ_HOME>/bin/artemis create --replicated --failover-on-shutdown --slave --user admin --password password --role admin --allow-anonymous y --clustered --host 127.0.0.1 --cluster-user clusterUser --cluster-password clusterPassword  --max-hops 1 --port-offset 100 <AMQ_HOME>/instances/repBackupBroker
 ```
 1. Add an `anycast` queue configuration to both brokers.
-```
+```XML
      <address name="haQueue">
         <anycast>
                <queue name="haQueue" />
@@ -33,7 +33,7 @@ $ <AMQ_HOME>/bin/artemis create --replicated --failover-on-shutdown --slave --us
 22:32:54,018 INFO  [org.apache.activemq.artemis.core.server] AMQ221037: ActiveMQServerImpl::serverUUID=3fbf4e5d-19b0-11e7-ac4e-3c970e2638ff to become 'live'
 ```
 1. Update the `repLiveBroker` configuration to check for a backup server that has failed over, so we don’t have an unaware live broker.
-```
+```XML
 <ha-policy>
  <replication>
     <master>
@@ -49,7 +49,7 @@ $ <AMQ_HOME>/bin/artemis create --replicated --failover-on-shutdown --slave --us
 
 #### Automate the failover
 1. Update the `repBackupBroker` configuration.
-```
+```XML
 <ha-policy>
     <replication>
         <slave>

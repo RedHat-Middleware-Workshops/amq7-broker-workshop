@@ -3,7 +3,7 @@ Lab 4. Configuring a Queue
 #### Creating a Queue using the CLI
 1. Open the `etc/broker.xml` file with your favorite text editor.
 1. Add an `anycast` type address with a queue
-```
+```XML
     <address name="testQueue">
         <anycast>
           <queue name="testQueue"/>

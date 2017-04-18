@@ -10,7 +10,7 @@ $ <AMQ_HOME>/bin/artemis create --shared-store --failover-on-shutdown --data <AM
 $ <AMQ_HOME>/bin/artemis create --shared-store --failover-on-shutdown --slave --data <AMQ_HOME>/instances/liveBroker/data --user admin --password password --role admin --allow-anonymous y --clustered --host 127.0.0.1 --cluster-user clusterUser --cluster-password clusterPassword --max-hops 1 --port-offset 100 <AMQ_HOME>/instances/backupBroker
 ```
 1. Add an `anycast` queue configuration to both brokers.
-```
+```XML
      <address name="clusteredQueue">
         <anycast>
                <queue name="clusteredQueue" />

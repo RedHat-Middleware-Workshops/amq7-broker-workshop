@@ -3,7 +3,7 @@ Lab 8. Clustered Queue
 #### Create a clustered queue
 To have a clustered queue it must be defined in both brokers.
 1. Add an anycast queue configuration to both brokers.
-```
+```XML
      <address name="clusteredQueue">
         <anycast>
                <queue name="clusteredQueue" />
@@ -44,7 +44,7 @@ $ ./artemis consumer --message-count 10 --destination queue://clusteredQueue
 
 #### Message load balancing strategy
 1. Update the load balancing to strict in the `etc/broker.xml` file
-```
+```XML
   <cluster-connections>
          <cluster-connection name="my-cluster">
             <connector-ref>artemis</connector-ref>

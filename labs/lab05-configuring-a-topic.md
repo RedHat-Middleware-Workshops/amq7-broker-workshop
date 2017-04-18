@@ -3,7 +3,7 @@ Lab 5. Configuring a Topic
 #### Creating a Topic using the CLI
 1. Open the `etc/broker.xml` file with your favorite text editor.
 1. Add a `multicast` type address with a topic
-```
+```XML
     <address name="testTopic">
         <multicast>
           <queue name="testTopic"/>
