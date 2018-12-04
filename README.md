@@ -1,4 +1,4 @@
-Red Hat JBoss AMQ 7 Broker Workshop
+Red Hat AMQ 7: Broker Workshop
 ===
 
 ### Introduction
