@@ -1,14 +1,22 @@
-Red Hat AMQ 7: Broker Workshop
+Red Hat Integration: AMQ Broker Workshop
 ===
 
 ### Introduction
-Red Hat AMQ 7 provides fast, lightweight, and secure messaging for Internet-scale applications. AMQ 7 components use industry-standard message protocols and support a wide range of programming languages and operating environments. AMQ 7 gives you the strong foundation you need to build modern distributed applications.
+Red Hat AMQ provides fast, lightweight, and secure messaging for Internet-scale applications. AMQ components use industry-standard message protocols and support a wide range of programming languages and operating environments. AMQ gives you the strong foundation you need to build modern distributed applications.
 
-This workshop introduces participants to AMQ 7 through a presentation and hands-on lab format. This workshop is intended to be completed in a half-day (4hrs) session.
+### Audience
+
+- Developers
+- Architects
+- Data Integrators
+
+### Duration
+
+This workshop introduces participants to AMQ through a presentation and hands-on lab format. This workshop is intended to be completed in a half-day (4hrs) session.
 
 ### Agenda
 The proposed agenda should look like the following.
-* Red Hat AMQ 7 Overview
+* Red Hat AMQ Overview
   * Technical Overview of the AMQ 7 Broker
 * Getting Started
   * Installing and running the AMQ 7 Broker
@@ -23,7 +31,7 @@ The proposed agenda should look like the following.
 * Hands-on labs
 
 ### Labs
-The main idea of the workshop is to present to the student a set of hands-on labs to test the features of the AMQ 7 Broker. The following labs should cover the main aspects of the product.
+The main idea of the workshop is to present to the student a set of hands-on labs to test the features of the AMQ Broker. The following labs should cover the main aspects of the product.
 * [Lab 00](labs/lab00-getting-started.md) - Getting Started
 * [Lab 01](labs/lab01-installation.md) - Installation
 * [Lab 02](labs/lab02-creating-a-broker-instance.md) - Creating a Broker
@@ -39,3 +47,7 @@ The main idea of the workshop is to present to the student a set of hands-on lab
 ### Contributing
 
 We welcome all forms of contribution (content, issues/bugs, feedback).
+
+### Support and ownership
+
+If you have any questions or are in need of support, reach out to [Hugo Guerrero](https://github.com/hguerrero)
